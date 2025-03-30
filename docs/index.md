@@ -1,3 +1,9 @@
+---
+layout: default
+title: Home
+description: Documentation for the Dartmouth Focus App
+---
+
 # Dartmouth Focus App Documentation
 
 Welcome to the Dartmouth Focus App documentation. This guide provides comprehensive information about the app's features, installation process, and development guidelines.
@@ -11,16 +17,50 @@ Welcome to the Dartmouth Focus App documentation. This guide provides comprehens
 
 ## Installation
 
-Detailed instructions for setting up the development environment and installing dependencies.
+### Prerequisites
+- Xcode 14.0 or later
+- iOS 15.0+ deployment target
+- CocoaPods package manager
+
+### Setup Steps
+1. Clone the repositories:
+   ```bash
+   git clone [repository-url] Earable-iOS
+   git clone [repository-url] Earable-iOS-SDK
+   ```
+
+2. Install dependencies:
+   ```bash
+   cd Earable-iOS && pod install
+   cd ../Earable-iOS-SDK && pod install
+   ```
 
 ## Project Structure
 
-Overview of the project's organization and key components.
+The project is organized into several key components:
+
+- `Earable-iOS/`: Main application code
+  - `ViewControllers/`: UI controllers
+  - `Models/`: Data models
+  - `Services/`: Business logic and services
+
+- `Earable-iOS-SDK/`: Core SDK implementation
+  - `EarableMobileLibrary/`: Main SDK code
+  - `EEdgeTestApp/`: Test application
 
 ## Development Guidelines
 
-Best practices and coding standards for contributing to the project.
+We follow the MVVM (Model-View-ViewModel) architecture pattern:
+
+- **Models**: Data structures and business logic
+- **Views**: UI components and layouts
+- **ViewModels**: Data binding and UI logic
 
 ## Machine Learning Features
 
-Documentation of the ML-based focus tracking capabilities. 
+The app includes advanced ML-based focus tracking:
+
+- Real-time focus monitoring
+- Cognitive performance analysis
+- Focus score processing
+- Signal processing pipeline 
