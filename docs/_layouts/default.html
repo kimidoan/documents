@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/styles.css' | relative_url }}">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <a href="{{ '/' | relative_url }}" class="logo">Dartmouth Focus App</a>
+                <ul class="nav-links">
+                    {% for item in site.nav %}
+                    <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="content">
+            {{ content }}
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>© 2024 Dartmouth Focus App. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="https://github.com/earableinc/Earable-iOS" target="_blank">GitHub</a>
+                <a href="https://earableinc.github.io/Earable-iOS-SDK" target="_blank">SDK Docs</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html> 

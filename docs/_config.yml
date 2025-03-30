@@ -1,0 +1,30 @@
+title: Dartmouth Focus App Documentation
+description: Documentation for the Dartmouth Focus App, a specialized version of the Earable iOS application focused on cognitive performance tracking and focus monitoring.
+theme: jekyll-theme-minimal
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git/
+
+# Navigation
+nav:
+  - title: Home
+    url: /
+  - title: Installation
+    url: /#installation
+  - title: Project Structure
+    url: /#project-structure
+  - title: Running the App
+    url: /#running-the-app
+  - title: Development Guidelines
+    url: /#development-guidelines
+  - title: Machine Learning Features
+    url: /#machine-learning-features 
