@@ -1,9 +1,11 @@
+theme: jekyll-theme-cayman
 title: Dartmouth Focus App Documentation
-description: Documentation for the Dartmouth Focus App, a specialized version of the Earable iOS application focused on cognitive performance tracking and focus monitoring.
-theme: jekyll-theme-minimal
+description: Comprehensive documentation for the Dartmouth Focus App, including ML features and focus tracking
+show_downloads: true
+google_analytics:
+markdown: GFM
 
 # Build settings
-markdown: kramdown
 permalink: pretty
 
 # Exclude from processing
