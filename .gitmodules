@@ -1,0 +1,12 @@
+[submodule "Earable-iOS"]
+	path = Earable-iOS
+	url = https://github.com/earable/Earable-iOS.git
+	branch = feature/FocusDartmouthApp
+[submodule "Earable-iOS-SDK"]
+	path = Earable-iOS-SDK
+	url = https://github.com/earable/Earable-iOS-SDK.git
+	branch = feature/FocusDartmouthApp
+[submodule "etensor"]
+	path = etensor
+	url = https://github.com/earable/etensor.git
+	branch = feature/FocusDartmouthApp
