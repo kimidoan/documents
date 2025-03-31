@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Documentation for Dartmouth Focus App
 
 This directory contains the documentation for the Dartmouth Focus App, hosted on GitHub Pages.
@@ -43,3 +44,7 @@ The documentation is automatically deployed to GitHub Pages when changes are pus
 - `_layouts/`: HTML templates
 - `styles.css`: Custom styles
 - `index.md`: Main documentation page 
+=======
+# documents
+Documents for internal
+>>>>>>> 9d92637caf2788a77b5df8400d6f0528ec272d81
